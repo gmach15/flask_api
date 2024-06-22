@@ -53,7 +53,7 @@ def tarefa(id):
         tarefas.pop(id)
         return jsonify({"status":"Sucesso", "mensagem":"Registro excluído!"})
 
-#Lista todos as tarefas e permite registrar uma atividade
+#Lista todas as tarefas e permite registrar uma nova atividade
 @app.route("/tarefas/", methods=["POST", "GET"])
 def lista_tarefas():
     if request.method == "POST":
