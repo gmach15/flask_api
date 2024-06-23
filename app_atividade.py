@@ -8,7 +8,7 @@ tarefas = [
         "id":0,
         "responsavel": "Gabriel",
         "tarefa": "Desenvolver o método GET",
-        "status": "Em andamento"
+        "status": "Concluído"
     },
     {
         "id":1,
@@ -20,13 +20,13 @@ tarefas = [
         "id":2,
         "responsavel": "Gabriel",
         "tarefa": "Desenvolver o método POST",
-        "status": "Atrasado"
+        "status": "Em andamento"
      },
      {
         "id":3,
         "responsavel": "Gabriel",
         "tarefa": "Desenvolver o método DELETE",
-        "status": "A tempo"
+        "status": "Atrasado"
      }
 ]
 
